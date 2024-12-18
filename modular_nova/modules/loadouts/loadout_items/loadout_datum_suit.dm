@@ -127,9 +127,21 @@
 	name = "Researcher's Labcoat"
 	item_path = /obj/item/clothing/suit/toggle/labcoat/nova/regular
 
+/datum/loadout_item/suit/labcoat_lalunevest
+	name = "Designer Buttoned Coat"
+	item_path = /obj/item/clothing/suit/toggle/labcoat/nova/lalunevest
+
 /datum/loadout_item/suit/labcoat_pharmacist
 	name = "Pharmacist's Labcoat"
 	item_path = /obj/item/clothing/suit/toggle/labcoat/nova/pharmacist
+
+/datum/loadout_item/suit/labcoat_geneticist
+	name = "Geneticist's Labcoat"
+	item_path = /obj/item/clothing/suit/toggle/labcoat/nova/geneticist
+
+/datum/loadout_item/suit/labcoat_roboticist
+	name = "Roboticist's Labcoat"
+	item_path = /obj/item/clothing/suit/toggle/labcoat/nova/roboticist
 
 /datum/loadout_item/suit/labcoat_custom
 	name = "Custom Labcoat"
@@ -789,11 +801,6 @@
 /datum/loadout_item/suit/heart_sweater
 	name = "Colourable Heart Sweater"
 	item_path = /obj/item/clothing/suit/heart_sweater
-
-/datum/loadout_item/suit/butter
-	name = "Butter Costume"
-	item_path = /obj/item/clothing/suit/costume/butter
-	ckeywhitelist = list("drpmstr, pyritechimera")
 
 // Fancy crop-top jackets
 
